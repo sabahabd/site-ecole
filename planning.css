@@ -1,0 +1,39 @@
+#titre{
+	padding-left: 5%;
+	border-bottom: dashed 1px;
+}
+
+.date{
+	padding-left: 5%;
+	font-size: 150%;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background-color: #9CB8C8;
+}
+
+#heure{
+	background-color: #C6D4DD;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+}
+
+th, td{
+	padding: 2%;
+}
+
+@media screen and (max-width: 900px){
+	table{
+		font-size: 0.7rem;
+	}
+}

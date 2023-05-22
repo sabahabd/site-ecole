@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
+	<link rel="stylesheet" type="text/css" href="Homepage.css">
+</head>
+<body>
+
+		
+	<header>
+		<div class="logo"><a href="Homepage.html"><img src="logo.png"></a></div>
+		<p id="t1">ÉTABLISSEMENT D'ENSEIGNEMENT SUPÉRIEUR TECHNIQUE PRIVÉ<p>
+		</header>
+
+		<nav>
+			<a href="contact.html"> Contact</a>
+			<a href="theme.html">Thèmes</a>
+			<a href="planning.html">Planning</a>
+			<a href="trombinoscope.html">Trombinoscpe</a>
+		</nav>
+
+		<article>
+
+							<div id="titre"><h1><i>FORMULAIRE</i></h1></div>
+
+			<form action="	/form/submit" method="post">	
+				<div class="nom">
+					<label for="nom">Nom</label> <input type="text" placeholder="DUCLOS" id="nom" required><br><br>
+					<label for="prénom">Prénom</label> <input type="text" placeholder="Corinne" id="prénom" required>
+				</div>
+				<div class="tel">
+					<label for="tel">Portable</label> <input type="tel" placeholder="07 55 ** ** 80"  id="tel">
+					<br>	<br>	
+					<label for="email">Mail</label> <input type="email" placeholder="exemple@exemple.coom" id="email" required>
+				</div>
+				<div class="objet">
+					<label for="objet">Objet</label> <input type="text" id="objet" required>
+					<br><br>
+					<textarea name="contenu" rows="20" cols="100" placeholder="Votre message."></textarea>
+				</div>
+
+				<div class="envoyer"><input type="submit" value="Envoyer"></div>
+
+			</form>
+		</article>
+
+</body>
+</html>

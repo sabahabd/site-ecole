@@ -1,0 +1,32 @@
+#titre{
+	padding-left: 2%;
+	border-bottom: dashed 1px;
+}
+
+form{
+	padding-left: 3%
+}
+
+.nom{
+	display: inline-block;
+	padding-top: 2%;
+}
+
+.tel{
+	display: inline-block;	
+	padding-top: 2%;
+}
+
+.objet{
+	padding-top: 2%;	
+}
+
+.envoyer{
+	padding-top: 2%;	
+}
+
+@media screen and (max-width: 900px){
+	textarea{
+		width: 90%;
+	}
+}

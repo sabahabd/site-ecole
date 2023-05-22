@@ -1,0 +1,21 @@
+#titre{
+	text-transform: uppercase;
+	padding-left: 2%;
+	border-bottom: dashed 1px;
+	margin-bottom: 2%;
+}
+
+table{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.promo{
+	padding-top: 5%;
+}
+@media screen and (max-width: 900px){
+	table{
+		font-size: 0.7rem;
+	}
+}
